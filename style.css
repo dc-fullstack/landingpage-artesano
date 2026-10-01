@@ -1,3 +1,5 @@
+/* aula dia 23/09
+
 a {
     scroll-behavior: smooth;
 }
@@ -24,5 +26,93 @@ display: table;
 
 ::after #foto {
     background-color: black;
+} */
+
+/*aula dia 30/09*/
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
 }
 
+/*<nav>*/
+.menu {
+padding: 10px;
+}
+
+/*<ul>*/
+.menu-list {
+list-style: none;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+gap: 15px;
+}
+
+/*<li>*/
+.menu-item {
+display: flex;
+}
+
+/*<a>*/
+.menu-link {
+text-decoration: none;
+color: #6a6a6a;
+font-size: 14px;
+text-transform: uppercase;
+letter-spacing: 0.26em;
+}
+
+
+#menu-logo {
+border: 1px solid #000;
+width: 25px;
+height: 25px;
+text-align: center;
+}
+
+#menu-logo a {
+display: block;
+border: 1px solid #000;
+padding: 8px 10px;
+text-align: center;
+color: #000;
+letter-spacing: 0;
+}
+
+#menu-logo a:hover {
+color: #6a6a6a;
+border-color: #6a6a6a;
+}
+
+/*Estudio*/
+
+#estudio {
+    background-color: #f4f4f5;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+#estudio p {
+    max-width: 400px;
+    text-align: justify;
+}
+
+#estudio-itens {
+    display: flex;
+    gap: 40px;
+}
+
+#estudio-itens div {
+    display: flex;
+    flex-direction: column;
+}
+
+#estudio-itens div img {
+    width: 30px;
+}
